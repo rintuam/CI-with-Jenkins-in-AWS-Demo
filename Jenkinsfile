@@ -1,7 +1,7 @@
 pipeline {
         agent any
         environment {
-            registry = "loveythakral/sprint6dockerjenkinsgcloud"
+            registry = "rintuam/sprint6dockerjenkinsgcloud"
             registryCredential = 'dockerhubcreds'
             dockerImage = ''
 		PROJECT_ID = 'brave-alliance-278917'
