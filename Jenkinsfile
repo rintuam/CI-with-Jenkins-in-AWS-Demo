@@ -2,7 +2,7 @@ pipeline {
         agent any
         environment {
             registry = "rintuam/s6dockerjenkinsgcloud"
-            registryCredential = 'dockerhub'
+            registryCredential = 'dockerhub1'
             dockerImage = ''
 		PROJECT_ID = 'brave-alliance-278917'
  		CLUSTER_NAME = 'ram-kubectl-cluster'
